@@ -4,7 +4,7 @@ from AppCoder.models import Curso
 
 # Create your views here.
 def curso(request):
-    curso = Curso(nombre="Desarrollo Android", camada=712519)
+    curso = Curso(nombre="SQL Basico", camada=335984)
     curso.save()
     documentoTexto = f'Se guardó el Curso: {curso.nombre}  correspondiente a la Camada: {curso.camada}.'
     
